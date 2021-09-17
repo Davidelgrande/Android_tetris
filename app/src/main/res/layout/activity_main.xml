@@ -9,21 +9,19 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/Grid"
-        android:layout_width="198dp"
-        android:layout_height="434dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="173dp"
+        android:layout_height="398dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:="MissingConstraints"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp">
 
+        <com.Vist.Board
+            android:id="@+id/Grida"
+            android:layout_width="173dp"
+            android:layout_height="398dp">
 
+        </com.Vist.Board>
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
